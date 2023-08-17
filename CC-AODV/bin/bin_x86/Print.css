@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body {
+   font-family: arial;
+   margin-top: 5%;
+   margin-left: 5%;
+   margin-right: 5%;
+   margin-bottom: 5%;
+  }
+  
+h1 {
+	font-family: Arial;
+	color: navy;
+	text-align: left;
+}
+h2 {
+	font-family: Arial;
+	color: black;
+	text-align: right;
+}
+h3 {
+	font-family: Arial;
+	color: black;
+	text-align: left;
+}
+h4 {
+	font-family: arial;
+	text-align: right;
+	color: black;
+}
+p {
+	font-family: arial;
+	font-size: 20px;
+}
+p.blank {
+  margin-bottom: 100px;
+}
+table, th, td {
+	border: 1px #9CC2E5; 
+	font-family: Arial;
+	table-layout: auto;
+	font-size: 9px;
+	border-collapse:collapse;
+}
+td, th {
+	min-height: 15px;
+	height: 15px;
+	font-size: 15px;
+	padding: 8px;
+	border: 1px solid #3593D8;
+}
+th {
+	background-color: #3593D8;
+	color: white;
+	font-weight: 300;
+	word-wrap: break-word;
+	white-space: nowrap;
+}
+th.lvl2 { 
+	background-color: #DEEAF6; 	
+	color: black;
+}
+
+td.ralign {
+	text-align: right;
+}
+td.lalign {
+	text-align: left;
+}
+td.calign {
+	text-align: center;
+}
+tr:nth-child(even) {
+	background-color: #DEEAF6;
+	padding: 10px;
+	text-align: left;
+	line-height: 5px;
+}
+tr:nth-child(odd) {
+	background-color: #FFFFFF;
+	padding: 10px;
+	text-align: left;
+	line-height: 5px;
+}
+underline {
+	text-decoration: underline;
+}
