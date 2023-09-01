@@ -1,0 +1,28 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  AODV.c
+  AODV_CheckRouteFound.c
+  AODV_RouteError.c
+  FIFOBuffer.c
+  GeneralPacketProcessing.c
+  HelloMessage.c
+  RouteMaint.c
+  RouteTable.c
+  RREP.c
+C:\Users\Geeta\Desktop\Performance_Analysis_CC_Aodv\src\Simulation\AODV\HelloMessage.c(45,47): warning C4244:  '=': conversion from 'double' to 'unsigned int', possible loss of data
+  RREQ.c
+C:\Users\Geeta\Desktop\Performance_Analysis_CC_Aodv\src\Simulation\AODV\RREP.c(40,40): warning C4244:  '=': conversion from 'double' to 'unsigned int', possible loss of data
+  Generating Code...
+C:\Users\Geeta\Desktop\Performance_Analysis_CC_Aodv\src\Simulation\AODV\RREQ.c(374,8): warning C4101:  'fp': unreferenced local variable
+C:\Users\Geeta\Desktop\Performance_Analysis_CC_Aodv\src\Simulation\AODV\RouteTable.c(88): warning C4715:  'fn_NetSim_AODV_InsertInRouteTable': not all control paths return a value
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1264,5): warning MSB8012: TargetPath(C:\Users\Geeta\Desktop\Performance_Analysis_CC_Aodv\src\Simulation\AODV\..\..\..\bin\bin_x86\AODV.dll) does not match the Linker's OutputFile property value (C:\Users\Geeta\Desktop\Performance_Analysis_CC_Aodv\bin\bin_x86\libAODV.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1266,5): warning MSB8012: TargetName(AODV) does not match the Linker's OutputFile property value (libAODV). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+AODV.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  AODV.lib(AODVlib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+AODV.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\..\..\bin\bin_x86\AODV.lib and object ..\..\..\bin\bin_x86\AODV.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+AODV.lib(AODVlib.obj) : warning LNK4099: PDB 'AODVLib.pdb' was not found with 'AODV.lib(AODVlib.obj)' or at 'C:\Users\Geeta\Desktop\Performance_Analysis_CC_Aodv\bin\bin_x86\AODVLib.pdb'; linking object as if no debug info
+List.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'List.lib(List.obj)' or at 'C:\Users\Geeta\Desktop\Performance_Analysis_CC_Aodv\bin\bin_x86\List.pdb'; linking object as if no debug info
+  AODV.vcxproj -> C:\Users\Geeta\Desktop\Performance_Analysis_CC_Aodv\src\Simulation\AODV\..\..\..\bin\bin_x86\AODV.dll
